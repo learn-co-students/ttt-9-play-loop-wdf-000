@@ -37,9 +37,9 @@ end
 
 # Define your play method below
 def play(array)
-  counter = 0
-  until(counter == 9) do
+  count = 0
+  until(count == 9) do
     turn(array)
-    counter += 1
+    count += 1
   end
 end
